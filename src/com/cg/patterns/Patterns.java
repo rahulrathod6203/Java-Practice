@@ -1,4 +1,4 @@
-package com.cg.patthers;
+package com.cg.patterns;
 
 public class Patterns {
 	
