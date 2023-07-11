@@ -4,7 +4,6 @@ package com.cg.Java8;
 interface funcInterface {
 
 	void display();
-	
 
 }
 

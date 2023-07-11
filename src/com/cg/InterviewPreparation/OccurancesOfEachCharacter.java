@@ -1,9 +1,6 @@
 package com.cg.InterviewPreparation;
 
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
-import java.util.stream.Collectors;
 
 public class OccurancesOfEachCharacter {
 
@@ -13,9 +10,9 @@ public class OccurancesOfEachCharacter {
 		String str = "rahulrathod";
 		
 		
-		List<String> collect = Arrays.stream(str.split("")).collect(Collectors.toList());
-		
-		System.err.println(collect);
+//		List<String> collect = Arrays.stream(str.split("")).collect(Collectors.toList());
+//		
+//		System.err.println(collect);
 		
 		HashMap<Character, Integer> res = new HashMap<>();
 
@@ -35,5 +32,4 @@ public class OccurancesOfEachCharacter {
 		System.out.println(res);
 
 	}
-
 }

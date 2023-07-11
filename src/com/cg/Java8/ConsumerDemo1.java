@@ -9,6 +9,8 @@ public class ConsumerDemo1 {
 		Consumer<String> consumer = t -> System.out.println(t.toUpperCase());
 		
 		consumer.accept("rahul");
+		
+		
 
 	}
 }

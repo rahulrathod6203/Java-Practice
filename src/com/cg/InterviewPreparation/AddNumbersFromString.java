@@ -7,7 +7,7 @@ public class AddNumbersFromString {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String str = "XCDAFKB"; // Output : ABCDFKX9
+		String str = "XCD3AFK5B"; // Output : ABCDFKX9
 
 		//String output = "";
 

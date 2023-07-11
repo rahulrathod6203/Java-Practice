@@ -34,17 +34,17 @@ public class NumberAndString {
 			
 			// Only Digits...
 			if((Character.isDigit(str.charAt(i)))) {
-				//System.out.print(str.charAt(i));
+				System.out.print(str.charAt(i));
 			}
 			
 			// Only Alphabets...
 			if(Character.isAlphabetic(str.charAt(i))) {
-				//System.out.printl(str.charAt(i));
+				System.out.println(str.charAt(i));
 			}
 			
 			// Other than Digits and Alphabets..
 			if(!(Character.isDigit(str.charAt(i))) && !(Character.isAlphabetic(str.charAt(i)))) {
-				//System.out.print(str.charAt(i));
+				System.out.print(str.charAt(i));
 			}
 			
 			// number of spaces...

@@ -11,7 +11,7 @@ public class SupplierDemo{
 		// When there is no input but the output is expected..
 		Supplier<String> supplier = () -> "Hi Supplier..";
 		
-		List<String> list=Arrays.asList("Rahul","Rathod");
+		List<String> list=Arrays.asList();
 		
 		System.out.println(list.stream().findAny().orElseGet(supplier));
 

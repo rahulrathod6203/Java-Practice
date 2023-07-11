@@ -24,8 +24,6 @@ public class PredicateDemo {
 		System.out.println(oddNumbers);
 		oddNumbers.forEach(t->System.out.println(t));
 		
-		
-		
 	}
 
 }

@@ -1,7 +1,5 @@
 package com.cg;
 
-import java.time.LocalDate;
-
 public class Practice {
 	
 	public static void main(String[] args) {

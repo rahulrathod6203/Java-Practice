@@ -39,6 +39,7 @@ public class AnagramExample {
 			// Sort the string - 2
 
 			char[] charArray2 = str2.toCharArray();
+			
 
 			char temp2;
 

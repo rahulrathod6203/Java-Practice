@@ -12,8 +12,14 @@ public class SplittingAndJoiningStringInJava8 {
 		//String[] str2 = str.split("");
 
 		String collect = Arrays.stream(str.split("")).map(i -> i.toUpperCase()).collect(Collectors.joining());
+		
+		
+		// Sorting a string in Java 8
+		String sorted = Arrays.stream(str.split("")).sorted().collect(Collectors.joining());
+		
+		
 
-		System.out.println(collect);
+		System.out.println(sorted);
 	}
 
 }

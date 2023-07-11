@@ -18,10 +18,10 @@ public class VowelsAndConsonents {
 				str.charAt(i) == 'o' || 
 				str.charAt(i) == 'u') {
 				
-				vowelCount+=1;
+				vowelCount++;
 				
-			} else if (str.charAt(i) >= 'a' && str.charAt(i) <= 'z') {
-				consCount += 1;
+			} else  {
+				consCount ++;
 			}
 		}
 		
